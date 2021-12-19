@@ -8,3 +8,6 @@ const server = net.createServer(socket => {
 })
 
 server.listen(8080)
+
+TCP command in terminal:
+telnet 192.168.0.1 8080(port number)
